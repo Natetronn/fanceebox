@@ -2,14 +2,14 @@ h1. Fanceebox
 
 Fanceebox is a very basic accessory though, very useful. What it does is add "fancybox":http://fancybox.net to the control panel so you can call it from your custom fields’ labels.
 
-Read this "article":http://nicolasbottari.com/blog/decorate_your_custom_field_labels_in_expressionengine/ for a bit more context on adding html to your field labels.
+Read this "article":http://nicolasbottari.com/blog/decorate_your_custom_field_labels_in_expressionengine/ for a bit more context on adding HTML to your field labels.
 
-You can add links to images, galleries and websites directly within your publish/edit page. These can be external or internal 
+You can add popups links to images, galleries and websites directly within your publish/edit page. These can be external or internal.
 
 *New*
 Now with fancybox support for your custom CP navigation via "Zoo Flexible Admin":http://devot-ee.com/add-ons/zoo-flexible-admin/.
 
-Let me know if you need any assitance and or can contribute to this add-on. Contact "me on twitter":http://twitter.com/natetronn or via "my website":http://natetronn.com/.
+Let me know if you need any assistance and or can contribute to this add-on. Contact "me on twitter":http://twitter.com/natetronn or via "my website":http://natetronn.com/.
 
 h2. Compatibility
 
@@ -30,22 +30,24 @@ You can add one of the following classes to your a href tag in your custom field
 * fancy_inline
 * fancy_iframe
 
-*Example*
+h2. Examples
+
+*Single item*
 
 <code><a class="fancy_iframe" href="http://fancybox.net">Fancybox</a></code>
 
-or
+*Gallery of items*
 
 <code><a class="fancy_group" rel="group1" href="image1.jpg">Step 1</a></code>
 <code><a class="fancy_group" rel="group1" href="image2.jpg">Step 2</a></code>
 
 *Zoo Flexible Admin*
 
-Add <code>?iframe</code> to the end of your custom links's in Zoo Flexible Admin's control panel.
+Add <code>?iframe</code> to the end of your custom links in Zoo Flexible Admin's control panel.
 
 h2. Notes
 
-You can updates sizes and settings however, At this time these options will have to be updated in the system/expressionengine/third_party/javascript/jquery.fanceebox.js file to meet your specific needs.
+You can update popup box sizes and settings however, at this time these options will need to be updated manually in the <code>system/expressionengine/third_party/javascript/jquery.fanceebox.js</code> file to meet your specific needs.
 Please see the "fancybox api":http://fancybox.net/api and their "howto":http://fancybox.net/howto for more options. 
 
 h2. Change Log
@@ -64,4 +66,4 @@ h2. Change Log
 
 h2. To Do Thoughts
 
-* Would be nice to setup this up in such a way to allow the editing of the fancybox options. Currenlty any adjustments have to be made manually in the fanceebox.js file. This would probably have to turn into an extension.
+* Would be nice to setup this up in such a way to allow the editing of the fancybox options. Currently any adjustments have to be made manually in the fanceebox.js file. This would probably have to turn into an extension.
