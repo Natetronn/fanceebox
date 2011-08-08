@@ -1,3 +1,67 @@
-For more information see this post:
+h1. Fanceebox
 
-http://expressionengine.com/forums/viewthread/179026/
+Fanceebox is a very basic accessory though, very useful. What it does is add "fancybox":http://fancybox.net to the control panel so you can call it from your custom fields’ labels.
+
+Read this "article":http://nicolasbottari.com/blog/decorate_your_custom_field_labels_in_expressionengine/ for a bit more context on adding html to your field labels.
+
+You can add links to images, galleries and websites directly within your publish/edit page. These can be external or internal 
+
+*New*
+Now with fancybox support for your custom CP navigation via "Zoo Flexible Admin":http://devot-ee.com/add-ons/zoo-flexible-admin/.
+
+Let me know if you need any assitance and or can contribute to this add-on. Contact "me on twitter":http://twitter.com/natetronn or via "my website":http://natetronn.com/.
+
+h2. Compatibility
+
+* ExpressionEngine 2.x+ (tested in 2.1.3)
+
+h2. Installation
+
+*For EE2*
+* Copy <code>system/expressionengine/third_party/fanceebox</code> to your <code>system/expressionengine/third_party</code> directory
+* Copy <code>themes/third_party/fanceebox</code> to your <code>themes/third_party</code> directory
+
+h2. Usage
+
+You can add one of the following classes to your a href tag in your custom field description:
+
+* fancy_image
+* fancy_group
+* fancy_inline
+* fancy_iframe
+
+*Example*
+
+<code><a class="fancy_iframe" href="http://fancybox.net">Fancybox</a></code>
+
+or
+
+<code><a class="fancy_group" rel="group1" href="image1.jpg">Step 1</a></code>
+<code><a class="fancy_group" rel="group1" href="image2.jpg">Step 2</a></code>
+
+*Zoo Flexible Admin*
+
+Add <code>?iframe</code> to the end of your custom links's in Zoo Flexible Admin's control panel.
+
+h2. Notes
+
+You can updates sizes and settings however, At this time these options will have to be updated in the system/expressionengine/third_party/javascript/jquery.fanceebox.js file to meet your specific needs.
+Please see the "fancybox api":http://fancybox.net/api and their "howto":http://fancybox.net/howto for more options. 
+
+h2. Change Log
+
++*Aug 7, 2011: 1.0.4*+
+
+* added support for Zoo Flexible Admin (previously NDG Flexible Admin)
+* cleaned things up a bit
+* changed license to MIT
+* changed readme.txt to readme.textile and added what your reading now
+
+*Jan 23, 2010: 1.0.0*
+
+* Initial Release
+
+
+h2. To Do Thoughts
+
+* Would be nice to setup this up in such a way to allow the editing of the fancybox options. Currenlty any adjustments have to be made manually in the fanceebox.js file. This would probably have to turn into an extension.
