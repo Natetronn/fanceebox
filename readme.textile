@@ -47,7 +47,7 @@ Add <code>?iframe</code> to the end of your custom links via Zoo Flexible Admin'
 
 h2. Notes
 
-You can update popup box sizes and settings however, at this time these options will need to be updated manually in the <code>system/expressionengine/third_party/javascript/jquery.fanceebox.js</code> file to meet your specific needs.
+You can update popup box sizes and settings however, at this time these options will need to be updated manually in the <code>system/expressionengine/third_party/fanceebox/javascript/jquery.fanceebox.js</code> file to meet your specific needs.
 Please see the "fancybox api":http://fancybox.net/api and their "howto":http://fancybox.net/howto for more options. 
 
 h2. Change Log
