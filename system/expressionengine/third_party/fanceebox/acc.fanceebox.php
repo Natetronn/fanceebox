@@ -15,9 +15,9 @@ class fanceebox_acc
 {
 	var $name			= 'Fanceebox';
 	var $id				= 'fanceebox';
-	var $version	 	= '1.0.4';
+	var $version		= '1.0.4';
 	var $description	= 'Adds the Fancybox "lightbox" popup to the control panel for use with your custom fields\' labels';
-	var $sections	 	= array();
+	var $sections	= array();
 	
 	/**
 	 * Constructor
