@@ -43,7 +43,7 @@ h2. Examples
 
 *Zoo Flexible Admin*
 
-Add <code>?iframe</code> to the end of your custom links in Zoo Flexible Admin's control panel.
+Add <code>?iframe</code> to the end of your custom links via Zoo Flexible Admin's control panel.
 
 h2. Notes
 
@@ -54,7 +54,7 @@ h2. Change Log
 
 +*Aug 7, 2011: 1.0.4*+
 
-* added support for Zoo Flexible Admin (previously NDG Flexible Admin)
+* added support for Zoo Flexible Admin (formerly NDG Flexible Admin)
 * cleaned things up a bit
 * changed license to MIT
 * changed readme.txt to readme.textile and added what your reading now
