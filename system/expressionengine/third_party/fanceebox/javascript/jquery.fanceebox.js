@@ -50,4 +50,18 @@ $(document).ready(function() {
 		'autoScale' 	:	false,
 		'type' 			:	'iframe'
 	});
+	
+	/* This is for use with Flexible Admin - add ?iframe to the end of you custom links */
+	
+	$('a[href$="?iframe"]').fancybox({
+    'transitionIn'		:	'elastic',
+    'transitionOut'		:	'elastic',
+    'speedIn'			:	600, 
+    'speedOut'			:	200, 
+    'overlayShow'		:	false,
+    'width'				:	'75%',
+    'height'			:	'75%',
+    'autoScale'			:	false,
+    'type'				:	'iframe'
+	}); 
 });
