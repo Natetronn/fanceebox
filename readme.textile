@@ -52,7 +52,12 @@ Please see the "fancybox api":http://fancybox.net/api and their "howto":http://f
 
 h2. Change Log
 
-+*Aug 7, 2011: 1.0.4*+
++*Aug 9, 2011: 1.0.5*+
+
+* added in a packed version of the fanceebox js
+* cleaned up the theme_folder_url setup a bit
+
+*Aug 7, 2011: 1.0.4*
 
 * added support for Zoo Flexible Admin (formerly NDG Flexible Admin)
 * cleaned things up a bit
