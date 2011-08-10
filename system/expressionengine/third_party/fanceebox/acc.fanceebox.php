@@ -4,7 +4,7 @@
  * Fanceebox Accessory
  *
  * @package			Fanceebox
- * @version			1.0.4
+ * @version			1.0.5
  * @author			Nathan Doyle <@natetronn>
  * @copyright		Copyright (c) 2011 Cosmos Web Works, LLC
  * @license			MIT  http://opensource.org/licenses/mit-license.php
@@ -15,9 +15,9 @@ class fanceebox_acc
 {
 	var $name			= 'Fanceebox';
 	var $id				= 'fanceebox';
-	var $version		= '1.0.4';
+	var $version		= '1.0.5';
 	var $description	= 'Adds the Fancybox "lightbox" popup to the control panel for use with your custom fields\' labels';
-	var $sections	= array();
+	var $sections		= array();
 	
 	/**
 	 * Constructor
@@ -26,18 +26,14 @@ class fanceebox_acc
 	{
 		$this->EE =& get_instance();
 
-		$theme_folder_url = $this->EE->config->item('theme_folder_url');
+		$theme_url = $this->EE->config->item('theme_folder_url') . 'third_party/fanceebox';
 
-		if (substr($theme_folder_url, -1) != '/')
-			$theme_folder_url .= '/';
-
-		$theme_folder_url .= "third_party/fanceebox/";
-		
 		$this->EE->cp->load_package_js('jquery.easing-1.3.pack');
 		$this->EE->cp->load_package_js('jquery.mousewheel-3.0.4.pack');
 		$this->EE->cp->load_package_js('jquery.fancybox-1.3.4.pack');
-		$this->EE->cp->load_package_js('jquery.fanceebox');
-		$this->EE->cp->add_to_head('<link rel="stylesheet" type="text/css" href="'.$theme_folder_url.'fancybox/jquery.fancybox-1.3.4.css" />');
+		$this->EE->cp->load_package_js('jquery.fanceebox-1.0.5.pack');
+		
+		$this->EE->cp->add_to_head("<link rel='stylesheet' type='text/css' href='{$theme_url}/fancybox/jquery.fancybox-1.3.4.css' />");
 	}
 
 	/**
