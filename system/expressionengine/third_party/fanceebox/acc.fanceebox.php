@@ -4,7 +4,7 @@
  * Fanceebox Accessory
  *
  * @package			Fanceebox
- * @version			1.0.5
+ * @version			1.0.6
  * @author			Nathan Doyle <@natetronn>
  * @copyright		Copyright (c) 2011 Cosmos Web Works, LLC
  * @license			MIT  http://opensource.org/licenses/mit-license.php
@@ -15,7 +15,7 @@ class fanceebox_acc
 {
 	var $name			= 'Fanceebox';
 	var $id				= 'fanceebox';
-	var $version		= '1.0.5';
+	var $version		= '1.0.6';
 	var $description	= 'Adds the Fancybox "lightbox" popup to the control panel for use with your custom fields\' labels';
 	var $sections		= array();
 	
@@ -27,6 +27,8 @@ class fanceebox_acc
 		$this->EE =& get_instance();
 
 		$theme_url = $this->EE->config->item('theme_folder_url') . 'third_party/fanceebox';
+		
+		$this->EE->load->add_package_path(PATH_THIRD . 'fanceebox/'); 
 
 		$this->EE->cp->load_package_js('jquery.easing-1.3.pack');
 		$this->EE->cp->load_package_js('jquery.mousewheel-3.0.4.pack');
