@@ -5,7 +5,7 @@
  * Fanceebox Accessory
  *
  * @package			Fanceebox
- * @version			1.0.6
+ * @version			1.0.7
  * @author			Nathan Doyle <@natetronn>
  * @copyright			Copyright (c) 2011 Cosmos Web Works, LLC
  * @license			MIT  http://opensource.org/licenses/mit-license.php
@@ -16,7 +16,7 @@ class fanceebox_acc
 {
 	var $name		= 'Fanceebox';
 	var $id			= 'fanceebox';
-	var $version		= '1.0.6';
+	var $version		= '1.0.7';
 	var $description	= 'Adds the Fancybox "lightbox" popup to the control panel for use with your custom fields\' labels';
 	var $sections		= array();
 	
