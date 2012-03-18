@@ -53,7 +53,11 @@ Please see the "fancybox api":http://fancybox.net/api and their "howto":http://f
 
 h2. Change Log
 
-+*Nov 9, 2011: 1.0.6*+
++*Mar 18, 2012: 1.0.7*+
+
+* security update - deny direct access
+
+*Nov 9, 2011: 1.0.6*
 
 * added in add_package_path for 2.3.1 support
 
