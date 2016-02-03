@@ -1,3 +1,5 @@
+NOTE: This is add-on is no longer being supported and will not be updated for EE3. Fork it if you like.
+
 h1. Fanceebox
 
 Fanceebox is a very basic accessory though, very useful. What it does is add "fancybox":http://fancybox.net to the control panel so you can call it from your custom fields&#39; labels.
